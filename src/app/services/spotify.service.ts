@@ -6,8 +6,8 @@ import 'rxjs/add/operator/map';
 export class SpotifyService {
     private searchUrl: string; 
     private redirectUri:string;
-    private clientId = '251b916861d746c68360438c97d8e18a';
-    private clientSecret = '620f4cc41499456fb9f5147c30c4e64b';
+    private clientId = 'your-clientId';
+    private clientSecret = 'your-clientSecret';
     private accessToken: string;
     private artistUrl: string;
     private albumsUrl: string;
